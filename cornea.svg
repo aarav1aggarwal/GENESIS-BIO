@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Cornea base structure -->
+  <g transform="translate(400, 300)">
+    <!-- Cornea dome shape -->
+    <ellipse cx="0" cy="0" rx="180" ry="120" fill="#f0f9ff" stroke="#bae6fd" stroke-width="3" fill-opacity="0.6"/>
+    
+    <!-- Layer representations -->
+    <ellipse cx="0" cy="0" rx="160" ry="100" fill="none" stroke="#7dd3fc" stroke-width="2" stroke-dasharray="5,3"/>
+    <ellipse cx="0" cy="0" rx="140" ry="80" fill="none" stroke="#7dd3fc" stroke-width="2" stroke-dasharray="5,3"/>
+    <ellipse cx="0" cy="0" rx="120" ry="60" fill="none" stroke="#7dd3fc" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- Cornea lens effect -->
+    <ellipse cx="0" cy="0" rx="100" ry="40" fill="#38bdf8" fill-opacity="0.3" stroke="#0ea5e9" stroke-width="1.5"/>
+    
+    <!-- 3D depth representation -->
+    <path d="M-100,0 C-80,-30 80,-30 100,0" fill="none" stroke="#0284c7" stroke-width="2"/>
+    <path d="M-100,0 C-80,30 80,30 100,0" fill="none" stroke="#0284c7" stroke-width="2"/>
+    
+    <!-- Cross-section lines -->
+    <line x1="-180" y1="0" x2="180" y2="0" stroke="#0284c7" stroke-width="1" stroke-dasharray="5,3"/>
+    <line x1="0" y1="-120" x2="0" y2="120" stroke="#0284c7" stroke-width="1" stroke-dasharray="5,3"/>
+  </g>
+  
+  <!-- Cornea layers cross-section -->
+  <g transform="translate(650, 300)">
+    <rect x="-80" y="-100" width="80" height="200" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="1.5"/>
+    <text x="-65" y="0" font-family="Arial, sans-serif" font-size="12" fill="#0284c7" transform="rotate(-90)">Cross-section</text>
+    
+    <!-- Layer labels -->
+    <line x1="-80" y1="-80" x2="-90" y2="-80" stroke="#0284c7" stroke-width="1"/>
+    <text x="-95" y="-76" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#0284c7">Epithelium</text>
+    
+    <line x1="-80" y1="-40" x2="-90" y2="-40" stroke="#0284c7" stroke-width="1"/>
+    <text x="-95" y="-36" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#0284c7">Bowman's Layer</text>
+    
+    <line x1="-80" y1="0" x2="-90" y2="0" stroke="#0284c7" stroke-width="1"/>
+    <text x="-95" y="4" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#0284c7">Stroma</text>
+    
+    <line x1="-80" y1="40" x2="-90" y2="40" stroke="#0284c7" stroke-width="1"/>
+    <text x="-95" y="44" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#0284c7">Descemet's</text>
+    
+    <line x1="-80" y1="80" x2="-90" y2="80" stroke="#0284c7" stroke-width="1"/>
+    <text x="-95" y="84" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#0284c7">Endothelium</text>
+  </g>
+  
+  <!-- Structure labels -->
+  <g font-family="Arial, sans-serif" font-size="14" fill="#0284c7">
+    <line x1="250" y1="240" x2="160" y2="200" stroke="#0284c7" stroke-width="1.5"/>
+    <text x="150" y="190" text-anchor="end">Bioprinted Corneal Dome</text>
+    
+    <line x1="250" y1="360" x2="160" y2="400" stroke="#0284c7" stroke-width="1.5"/>
+    <text x="150" y="410" text-anchor="end">Collagen Matrix Structure</text>
+  </g>
+  
+  <!-- 3D indicators -->
+  <g transform="translate(200, 170)">
+    <path d="M0,0 L20,20 L40,0 L20,-20 Z" fill="#7dd3fc" fill-opacity="0.5" stroke="#0ea5e9" stroke-width="1.5"/>
+    <path d="M0,0 L20,20 L20,50 L0,30 Z" fill="#7dd3fc" fill-opacity="0.3" stroke="#0ea5e9" stroke-width="1.5"/>
+    <path d="M40,0 L20,20 L20,50 L40,30 Z" fill="#7dd3fc" fill-opacity="0.2" stroke="#0ea5e9" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Title and caption -->
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#0284c7">Cornea</text>
+  <text x="400" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0ea5e9">3D Bioprinted Model</text>
+</svg>

@@ -1,0 +1,103 @@
+GENESIS BIO
+Tagline: Print Life. Shape Futures. Simulate the Impossible.
+
+
+Navigation tile 1- Learn (BioLearning XR)
+1.information on introduction to bio printing.
+2.information on bio printing materials
+3.information on design and modelling 
+4.information on printing technologies 
+5.information on post processing 
+
+this was given in a drop down format, where one clicks the drop down button to view the information
+
+In this tab was also a quiz on 3d Bioprinting
+
+
+Navigation tile 2- Explore (Tissue Vault)
+1. Purpose: A scientific library of printable human tissues and materials.
+
+🧾 Features:
+	•	Searchable Vault:
+	•	Filter by: Cell type, organ, bio-ink, success rate, lab name
+	•	Tissue Cards:
+	•	Tap any item → See:
+	•	Cell compatibility
+	•	Print time
+	•	Required materials
+	•	Real-life use case
+	•	3D Rotation:
+	•	View the tissue/organ in 3D (zoom/rotate with finger)
+	•	Submit a Tissue (for researchers/future version)
+
+
+Navigation tile 3- SIMULATE MODULE (BioTwin AI)
+
+Purpose: Simulate implanting a printed organ into a virtual human to test outcomes.
+
+🧪 Steps:
+	1.	Select Body Model
+	•	Age, gender, medical conditions
+	2.	Choose Organ to Implant
+	•	Liver, Skin Patch, Cornea, Heart Valve, etc.
+	3.	Edit Bio-Ink
+	•	Adjust materials (e.g., collagen %, scaffold)
+	4.	Simulate
+	•	AI predicts:
+	•	Rejection probability
+	•	Healing timeline
+	•	Integration success
+	•	Risk zones
+	5.	Time-Lapse Viewer
+	•	See how the implant fuses over time (day 1 → day 90)
+
+⸻
+
+
+Navigation tile 4 -🧬 BIOCASE VAULT (Real-Life Stories)
+
+Purpose: Showcase actual medical success stories where 3D bioprinting saved lives.
+
+📁 Each Case Contains:
+	•	📍 Location + Date
+	•	🧍 Patient Profile (with permissions or anonymized)
+	•	🫀 Printed Organ/Tissue
+	•	🛠️ Materials & Techniques
+	•	📈 Outcome / Recovery
+	•	🎥 Embedded video / animation
+
+🌟 Examples:
+	•	2019 – Israel: First 3D printed heart with blood vessels
+	•	2020 – USA: Bladder organoids printed and tested in mice
+	•	2022 – Sweden: Skin printing on burn victims
+	•	2023 – India: Cornea patch printed for blind patient
+
+⸻
+
+
+Navigation tile 5-🏅CHALLENGES & GAMES
+
+Purpose: Make learning fun through tasks and competitions.
+
+🎮 Modes:
+	•	Organ Builder Game:
+	•	Drag-and-drop cells and materials to print an organ
+	•	Accuracy gets scored
+	•	Time Attack Quiz
+	•	Rapid-fire questions on organs, bioprinters, materials
+	•	Simulation Challenge
+	•	Implant 3 different organs in 3 patients — save all 3!
+
+🧑‍🚀 Leaderboards:
+	•	Local class ranking
+	•	Global leaderboard (with profiles & flags)
+
+⸻
+
+
+Navigation tile 6-👤 PROFILE + PROGRESS
+	•	XP Points for every activity
+	•	Badges for milestones (e.g., “Skin Savior”, “Heart Hero”)
+	•	Level progress: Novice → Scientist → BioEngineer
+	•	Completed certificates (printable or shareable)
+

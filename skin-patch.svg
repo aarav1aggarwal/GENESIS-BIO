@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background with grid to represent scaffold structure -->
+  <rect x="150" y="100" width="500" height="350" fill="#fed7aa" stroke="#f97316" stroke-width="2"/>
+  
+  <!-- Skin layers visualization -->
+  <g transform="translate(400, 280)">
+    <!-- Epidermis layer -->
+    <rect x="-200" y="-120" width="400" height="20" fill="#fdba74" stroke="#f97316" stroke-width="1.5"/>
+    <text x="-240" y="-110" font-family="Arial, sans-serif" font-size="14" fill="#7c2d12">Epidermis</text>
+    
+    <!-- Dermis layer -->
+    <rect x="-200" y="-100" width="400" height="60" fill="#fb923c" stroke="#f97316" stroke-width="1.5"/>
+    <text x="-240" y="-70" font-family="Arial, sans-serif" font-size="14" fill="#7c2d12">Dermis</text>
+    
+    <!-- Hypodermis layer -->
+    <rect x="-200" y="-40" width="400" height="40" fill="#ffedd5" stroke="#f97316" stroke-width="1.5"/>
+    <text x="-240" y="-20" font-family="Arial, sans-serif" font-size="14" fill="#7c2d12">Hypodermis</text>
+    
+    <!-- Scaffold structure -->
+    <rect x="-200" y="0" width="400" height="30" fill="#fde68a" stroke="#f97316" stroke-width="1.5"/>
+    <text x="-240" y="20" font-family="Arial, sans-serif" font-size="14" fill="#7c2d12">Scaffold</text>
+  </g>
+  
+  <!-- Cross-section visualization -->
+  <g transform="translate(400, 400)">
+    <!-- Cellular matrix patterns -->
+    <g fill="none" stroke="#f97316" stroke-width="0.8">
+      <pattern id="cellPattern" patternUnits="userSpaceOnUse" width="20" height="20" patternTransform="rotate(45)">
+        <circle cx="10" cy="10" r="3" fill="#fb923c" stroke="#f97316" stroke-width="0.5"/>
+      </pattern>
+      
+      <rect x="-180" y="-40" width="360" height="80" fill="url(#cellPattern)"/>
+    </g>
+  </g>
+  
+  <!-- 3D effect elements -->
+  <g transform="translate(400, 280)">
+    <!-- Side walls for 3D effect -->
+    <path d="M-200,-120 L-220,-140 L-220,40 L-200,20 Z" fill="#fdba74" fill-opacity="0.5" stroke="#f97316" stroke-width="1"/>
+    <path d="M200,-120 L220,-140 L220,40 L200,20 Z" fill="#fdba74" fill-opacity="0.5" stroke="#f97316" stroke-width="1"/>
+    <path d="M-200,20 L-220,40 L220,40 L200,20 Z" fill="#fcd34d" fill-opacity="0.5" stroke="#f97316" stroke-width="1"/>
+    <path d="M-200,-120 L-220,-140 L220,-140 L200,-120 Z" fill="#fcd34d" fill-opacity="0.5" stroke="#f97316" stroke-width="1"/>
+  </g>
+  
+  <!-- Title and caption -->
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#c2410c">Skin Patch</text>
+  <text x="400" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#f97316">3D Bioprinted Model</text>
+  
+  <!-- Technical labels -->
+  <g font-family="Arial, sans-serif" font-size="14" fill="#7c2d12">
+    <line x1="560" y1="150" x2="620" y2="100" stroke="#7c2d12" stroke-width="1.5"/>
+    <text x="625" y="100">Multilayered Structure</text>
+    
+    <line x1="560" y1="400" x2="620" y2="450" stroke="#7c2d12" stroke-width="1.5"/>
+    <text x="625" y="450">Cellular Matrix</text>
+    
+    <line x1="240" y1="280" x2="150" y2="280" stroke="#7c2d12" stroke-width="1.5"/>
+    <text x="140" y="280" text-anchor="end">Collagen-Based Scaffold</text>
+  </g>
+</svg>

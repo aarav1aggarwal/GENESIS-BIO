@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Main valve structure -->
+  <g transform="translate(400, 300) scale(1.2)">
+    <!-- Valve ring base -->
+    <ellipse cx="0" cy="0" rx="150" ry="80" fill="#f87171" stroke="#b91c1c" stroke-width="5"/>
+    
+    <!-- Inner valve ring -->
+    <ellipse cx="0" cy="0" rx="120" ry="60" fill="#fecaca" stroke="#b91c1c" stroke-width="3" stroke-dasharray="5,3"/>
+    
+    <!-- Valve leaflets -->
+    <path d="M-120 0 Q-60 -90 0 0 Q60 -90 120 0" fill="#fecaca" stroke="#b91c1c" stroke-width="3" fill-opacity="0.6"/>
+    <path d="M-120 0 Q-60 90 0 0 Q60 90 120 0" fill="#fecaca" stroke="#b91c1c" stroke-width="3" fill-opacity="0.6"/>
+    
+    <!-- Cross-section view -->
+    <path d="M-40 -20 L40 -20 L30 20 L-30 20 Z" fill="#ef4444" stroke="#b91c1c" stroke-width="2" transform="translate(0, -40)"/>
+    <path d="M-40 -20 L40 -20 L30 20 L-30 20 Z" fill="#ef4444" stroke="#b91c1c" stroke-width="2" transform="translate(0, 40) rotate(180)"/>
+    
+    <!-- Blood flow indication -->
+    <path d="M0 -150 L0 150" stroke="#3b82f6" stroke-width="6" stroke-dasharray="15,10" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Arrowhead marker for blood flow -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3b82f6"/>
+    </marker>
+  </defs>
+  
+  <!-- Title and caption -->
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#b91c1c">Heart Valve</text>
+  <text x="400" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#ef4444">3D Bioprinted Model</text>
+  
+  <!-- Technical annotations -->
+  <g font-family="Arial, sans-serif" font-size="14" fill="#64748b">
+    <line x1="500" y1="260" x2="580" y2="200" stroke="#64748b" stroke-width="1.5"/>
+    <text x="590" y="200">Valve Leaflet</text>
+    
+    <line x1="500" y1="360" x2="580" y2="420" stroke="#64748b" stroke-width="1.5"/>
+    <text x="590" y="420">Bioprinted Scaffold</text>
+    
+    <line x1="280" y1="300" x2="200" y2="300" stroke="#64748b" stroke-width="1.5"/>
+    <text x="190" y="300" text-anchor="end">Blood Flow Direction</text>
+  </g>
+</svg>
